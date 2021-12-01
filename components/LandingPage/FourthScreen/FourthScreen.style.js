@@ -28,6 +28,12 @@ const useStyles = makeStyles(theme => ({
       margin: '30px 0 20px 0 !important',
     },
   },
+  purple: {
+    width: '100%',
+    background: '#9214FF',
+    marginTop: '40px',
+    marginBottom: '40px'
+  },
   subtitle: {
     marginBottom: 90,
     [theme.breakpoints.down('xs')]: {

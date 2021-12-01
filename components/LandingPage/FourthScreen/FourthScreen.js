@@ -485,9 +485,13 @@ export default function FourthScreen() {
             </Box>
           ))
         }
-
-<FastTypography data-aos="fade-up" type="h2" weight="bold" className={classes.h3}>FEATURED ON:</FastTypography>
-
+</Container>
+<div className={classes.purple}>
+  <Container maxWidth="lg">
+  <FastTypography data-aos="fade-up" type="h3" weight="bold">FEATURED ON:</FastTypography>
+  </Container>
+</div>
+<Container maxWidth="lg">
 {
   news.map((item, index) => (
     <Box className={classes.item} key={index}>
