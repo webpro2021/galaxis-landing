@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start -p $PORT",
+    "build": "next build && next export"
   },
   "dependencies": {
     "@mailchimp/mailchimp_transactional": "^1.0.23",
