@@ -38,14 +38,14 @@ export default function Header() {
               </Button>
               </Link>
             </li>
-            <li className={router.pathname == "/ecosystem" && trigger ? "active" : ""}>
+            <li className={`hideNav ${router.pathname == "/ecosystem" && trigger ? "active" : ""}`}>
               <Link href="/ecosystem">
-              <Button component="a">Ecosystem
-                {router.pathname == "/ecosystem" && !trigger && <Divider className={classes.divider}/>}
-              </Button>
+                <Button component="a" >Ecosystem
+                  {router.pathname == "/ecosystem" && !trigger && <Divider className={classes.divider}/>}
+                </Button>
               </Link>
             </li>
-            <li className={router.pathname == "/roadmap" && trigger ? "active" : ""}>
+            <li className={`hideNav ${router.pathname == "/roadmap" && trigger ? "active" : ""}`}>
               <Link href="/roadmap">
               <Button component="a">Roadmap
                 {router.pathname == "/roadmap" && !trigger && <Divider className={classes.divider}/>}

@@ -105,9 +105,10 @@ const useStyles = makeStyles(theme => ({
   },
   listSubtitle: {
     marginBottom: 30,
+    marginLeft: 32,
     fontSize: '2rem',
     [theme.breakpoints.down('xs')]: {
-      fontSize: '24px',
+      fontSize: '28px',
       marginBottom: 20  
     },
   },
@@ -127,6 +128,16 @@ const useStyles = makeStyles(theme => ({
       marginTop: 30
     },
   },
+  diagram: {
+    width: '90%',
+    [theme.breakpoints.down('xs')]: {
+      display: 'none'
+    },
+  },
+  imgWrapper: {
+    display: 'flex',
+    alignItems: 'center'
+  }
 }));
 
 export default useStyles;

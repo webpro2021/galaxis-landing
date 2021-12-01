@@ -45,6 +45,11 @@ const useStyles = makeStyles(theme => ({
         display: 'none'
       },
     },
+    '& li.hideNav': {
+      [theme.breakpoints.down('xs')]: {
+        display: 'none'
+      },
+    },
     '& li.active a': {
       background: '#9214FF',
       borderRadius: 5,

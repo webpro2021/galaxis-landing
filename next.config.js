@@ -2,6 +2,7 @@ module.exports = {
   env: {
     BASE_API_URL: process.env.BASE_API_URL,
     ROOT_DIRECTORY: '/home/site/wwwroot',
+    distDir: 'out',
   },
   webpack(config) {
     config.module.rules.push({

@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "next start -p $PORT",
-    "build": "next build && next export"
+    "build": "next build && next export",
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "@mailchimp/mailchimp_transactional": "^1.0.23",
@@ -18,7 +18,7 @@
     "aos": "^2.3.4",
     "clsx": "^1.1.1",
     "dotenv": "^8.2.0",
-    "next": "9.5.3",
+    "next": "9.4.4",
     "react": "16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "16.13.1",

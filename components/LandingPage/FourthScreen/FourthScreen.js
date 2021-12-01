@@ -322,10 +322,150 @@ export default function FourthScreen() {
             </Box>
           </Box>
           <FastTypography data-aos="fade-up" weight="thin" noMargin className={classes.listTitle}>With clear and direct communication between influencers and brands, 1-click shopping, and a data set that won’t quit, Galaxis is a ​<b>win-win-win​</b> for creators, companies, and consumers.</FastTypography>
-          <div class="MuiBox-root jss499 jss495 jss496" id="ecosystem">
-          {/* <FastTypography data-aos="fade-up" type="h2" weight="bold" className={classes.h3}>Ecosystem:</FastTypography>
+          <div className={`${classes.hideContent} MuiBox-root jss499 jss495 jss496`} id="ecosystem">
+            <FastTypography data-aos="fade-up" type="h2" weight="bold" className={classes.h3}>Ecosystem:</FastTypography>
+            <FastTypography data-aos="fade-up" weight="thin" noMargin className={classes.listTitle}>The purpose of this ecosystem is to have a decentralized platform where we can do all social, commerce, advertising, and content consumption activity while having a secure system that works for everyone. Galaxis purpose is to digitize every company and offer and endless amount of online work through the help of content, advertising and ecommerce. This will create a revolving cycle which we refer to as the ecosystem.</FastTypography>
+            <img data-aos="fade-up" className={classes.ecosystem} src="images/ecosystem.png" />
+          </div>
+          <div className={`${classes.hideContent} MuiBox-root jss499 jss495 jss496`} id="roadmap">
+          <FastTypography data-aos="fade-up" type="h2" weight="bold" className={classes.h3}>Galaxis Roadmap:</FastTypography>
           <FastTypography data-aos="fade-up" weight="thin" noMargin className={classes.listTitle}>The purpose of this ecosystem is to have a decentralized platform where we can do all social, commerce, advertising, and content consumption activity while having a secure system that works for everyone. Galaxis purpose is to digitize every company and offer and endless amount of online work through the help of content, advertising and ecommerce. This will create a revolving cycle which we refer to as the ecosystem.</FastTypography>
-          <img data-aos="fade-up" className={classes.ecosystem} src="images/ecosystem.png" /> */}
+          <Box display="flex" flexDirection="column">
+            <Box display="flex" justifyContent="space-between" className={classes.reasons}>
+              <Box className={classes.listWrapper}>
+                <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>2019</FastTypography>
+                  <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Teamed up with Phil Nahajewski in Q4 2018 and registered corporation as Galaxis INC.</FastTypography></Box>
+                  <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>$50k invested by co-founder</FastTypography></Box>
+                  <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired freelancer in marketing to help improving communication to investors</FastTypography></Box>
+                  <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired developing company from abroad to create better wireframing demo with invision. </FastTypography></Box>
+                  <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Pitched at few events. St Pete greenhouse and Tampa bay wave.</FastTypography></Box>
+              </Box>
+              <Box className={classes.listWrapper}>
+                <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2019.png"/></Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box display="flex" justifyContent="space-between" className={classes.reasons}>
+          <Box className={classes.listWrapper}>
+            <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2020.png"/></Box>
+          </Box>
+          <Box className={classes.listWrapper}>
+            <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>2020</FastTypography>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>$100k Loan by Developing company to build platform.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Completion of Galaxis full infrastructure design - Wireframing and requirement gathering.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Including product, services, content copyrights, NFT, advertising and sponsorships marketplaces.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Security features are included. The security is improved by using the experience function.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Industry specialists were consulted to fine-tune the Galaxis application in terms of server scalability and security.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>To create the groundwork for the app's launch and onboard early adopters, reach out to social media influencers and small to medium-sized enterprises in the United States.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Pitched startup at newchip upon program completion.</FastTypography></Box>
+          </Box>
+        </Box>
+
+        <Box display="flex" justifyContent="space-between" className={classes.reasons}>
+          <Box className={classes.listWrapper}>
+            <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>2021</FastTypography>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>USD $50k invested by professional investor found on angel network.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired UX/UI/Project manager freelancer to finish our project.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Internal mobile application UX/UI design.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Ecosystem added features.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired an amazing director of communications to improve message.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired cryptocurrency/blockchain expert to help create token.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Token Migration work - smart contracts.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Discord channel community created. Searching for manager.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Twitter account created.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Website revamp - added roadmap & crypto.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Found more support from influencers with millions of followers.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Added NFT 1.0 into our marketplace.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Team expansion - TBD upon funding.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Phase development of Galaxis for launch TBD.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Slyx coin creation and launch.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Coinmarket Cap listing.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Coingecko listing.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Coinbase price listing.</FastTypography></Box>
+          </Box>
+          <Box className={classes.listWrapper}>
+            <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2021.png"/></Box>
+          </Box>
+        </Box>
+
+        <Box display="flex" justifyContent="space-between" className={classes.reasons}>
+          <Box className={classes.listWrapper}>
+            <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2022.png"/></Box>
+          </Box>
+          <Box className={classes.listWrapper}>
+            <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>2022</FastTypography>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/uncheck.png" className={classes.check}/><FastTypography noMargin>Achieve big investment</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/uncheck.png" className={classes.check}/><FastTypography noMargin>Hire full team</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/uncheck.png" className={classes.check}/><FastTypography noMargin>Increase server infrastructure</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/uncheck.png" className={classes.check}/><FastTypography noMargin>Q1 2022 Minimum viable product launch - Expedited contracts </FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/uncheck.png" className={classes.check}/><FastTypography noMargin>Q3 2022 Full viable product launch - full ecosystem</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/uncheck.png" className={classes.check}/><FastTypography noMargin>YouTube/TikTok/Meta collaborations with influencers </FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/uncheck.png" className={classes.check}/><FastTypography noMargin>Achieved biggest online sponsorship in crypto and dollars</FastTypography></Box>
+          </Box>
+        </Box>
+
+          <FastTypography data-aos="fade-up" noMargin style={{marginTop: 30, textAlign: 'center', margin: 30}}>
+            <span style={{color: '#BC75FC', fontSize: 50, textDecoration: 'none' }}>Ecosystem</span><span style={{fontSize: 50, textDecoration: 'none' }}> Features</span>
+          </FastTypography>
+
+          <Box display="flex" justifyContent="space-between" className={classes.reasons}>
+            <Box className={classes.listWrapper}>
+              <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>MVP</FastTypography>
+                <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>Due to time and funding constraints, we’re able to launch the following MVP in the near future.</FastTypography></Box>
+                <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>A linktree-like platform with content creator statistics and expedited contracts agreement: </FastTypography></Box>
+                <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>1. For creators/influencers<br />Instead of focusing your earning capabilities on amounts of views, creators/Influencers will have a much easier time making more money faster than ever before from their content by using expedited contracts through our platform. The more contracts you get, the bigger the prices you get through our statistics, reviews and bidding process for brands. Striking deals this way will allow you to allocate more time for your craft and life.</FastTypography></Box>
+                <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>2. For brands<br />Instead of sending emails back and forth to a multitude of people through marketing agencies or copy-pasted influencer platforms, Galaxis allows you to connect with any influencer in seconds. Contacts are fast and easy to build. Reviews help you have confidence to work with an influencer. Escrow accounts improve a secure transaction and an interactive negotiations table helps communication transparency.</FastTypography></Box>
+            </Box>
+            <Box className={classes.listWrapper}>
+              <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>FVP</FastTypography>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>
+                The ecosystem seeks to be a new standard on web 3.0 as the main  and most powerful decentralized social media platform.<br />
+                Our platform infrastructure is built to be the next gen platform to sustain endless online activity. From social interactions, 
+                online purchases, streams, and more. 
+                </FastTypography>
+              </Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>
+                <b>Marketplaces:</b><br />
+                <u>Products marketplace</u> will be just like amazon/shopify. You’ll be able to sell anything from your store and find it in the products 
+                marketplace. Logistics will be done with a wide array of warehousing solutions, opening the market for everyone to have more options.<br />
+                <u>Services:</u> Freelancing or getting permanently hired by any company through their Galaxis channel means Galaxis may offer the most 
+                amount of jobs in the world. Channels can assign specific tasks and access, which make the process of hiring and launching something 
+                faster and easier.<br />
+                <u>Content:</u> Our technologies allow content to be repurposed and remonetized over and over again so the original content creators or 
+                copyright owners can also make money when other people repurpose their content. YouTube, please step aside.<br />
+                <u>NFT:</u> Yes, an NFT marketplace. eSports, metaverse, videogames in general will connect faster to NFT’s through Galaxis.<br />
+                <u>Advertising & Sponsorships:</u> How advertising works on Galaxis. You’re in charge of getting the traffic and monetization to your channel 
+                through expedited contracts. More money in less time.
+                </FastTypography>
+              </Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>
+                <b>Decentralization:</b> On Galaxis, channels can be set for anything and are entirely owned and moderated by the owner. Content, Forums, 
+                crowdfunding, etc.  Monetization is also controlled by setting as many ads and sponsorships as you desire. <br />
+                Users and channels gain access and unlock features through behavior and experience, just like a videogame. We like to give people 
+                the freedom to create, express themselves without limits. While we have extreme violent/graphic content policies, everything else is 
+                permitted due to a new behavioral system. Channels and users can be rated for a range of behaviors. In a positive light as an influencer 
+                or in a negative contrast as hate-raider, trolling, etc. There’s all kinds of fair game implemented, so people can make mistakes and adjust 
+                without crippling usage. 
+                </FastTypography>
+              </Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>
+                <b>Monetization:</b> 7 initial income sources will allow you to monetize your careers on Galaxis. Advertising, Sponsorships, products, services, 
+                content copyrights, NFT’s & donations. There’s 5 marketplaces as well. All allow dollars or our own crypto, Slyx.
+              </FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>
+                <b>Users and security: </b> On Galaxis a single person with verified identity can create endless channels, which may not show real identity to 
+                other users. There’s a systematic hierarchy to follow. An user level 2 cant reach out to user level 3, but an influencer level 10 can reach out 
+                to influencer level 10 and below. This is done through 
+                </FastTypography>
+              </Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>
+                <b>Ecommerce: </b>Anyone can set up shop on Galaxis, but the biggest feature we have is a new technology that allows users consuming content to 
+                teletransport to the sponsors shop and buy on the go, even while consuming content, thus crediting the original promoter who redirected the user 
+                to produce a sale. This ability to give more value to influencers will transform radically how influencers make their money. 
+                </FastTypography>
+              </Box>
+            </Box>
+          </Box>
           </div>
         <FastTypography data-aos="fade-up" type="h2" weight="bold" className={classes.h3}>Case Studies:</FastTypography>
 

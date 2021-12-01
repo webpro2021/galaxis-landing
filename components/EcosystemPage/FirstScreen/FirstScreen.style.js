@@ -109,7 +109,7 @@ const useStyles = makeStyles(theme => ({
     color: 'white',
     display: "flex",
     margin: 'auto',
-    width: '50%',
+    width: '80%',
     justifyContent: "flex-start",
     fontSize: 24,
     padding: '20px 40px',
@@ -137,12 +137,12 @@ const useStyles = makeStyles(theme => ({
     },
   },
   infoText: {
-    flex: 8
+    padding: '0 10px',
   },
   diagram: {
     margin: '40px auto 0',
-    maxWidth: 768,
     [theme.breakpoints.down('xs')]: {
+      width: '90%',
       maxWidth: typeof window !== 'undefined' ? window?.outerWidth : 330,
     },
   },

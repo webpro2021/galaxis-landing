@@ -127,6 +127,19 @@ const useStyles = makeStyles(theme => ({
       marginTop: 30
     },
   },
+  diagram: {
+    width: '90%',
+    [theme.breakpoints.down('xs')]: {
+      display: 'none'
+    },
+  },
+  hideContent: {
+    display: 'none',
+    
+    [theme.breakpoints.down('xs')]: {
+      display: 'block'
+    },
+  }
 }));
 
 export default useStyles;

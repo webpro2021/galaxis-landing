@@ -308,14 +308,14 @@ export default function FourthScreen() {
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired developing company from abroad to create better wireframing demo with invision. </FastTypography></Box>
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Pitched at few events. St Pete greenhouse and Tampa bay wave.</FastTypography></Box>
           </Box>
-          <Box className={classes.listWrapper}>
+          <Box className={classes.imgWrapper}>
             <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2019.png"/></Box>
           </Box>
         </Box>
         </Box>
 
         <Box display="flex" justifyContent="space-between" className={classes.reasons}>
-          <Box className={classes.listWrapper}>
+          <Box className={classes.imgWrapper}>
             <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2020.png"/></Box>
           </Box>
           <Box className={classes.listWrapper}>
@@ -352,14 +352,14 @@ export default function FourthScreen() {
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Coingecko listing.</FastTypography></Box>
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Coinbase price listing.</FastTypography></Box>
           </Box>
-          <Box className={classes.listWrapper}>
+          <Box className={classes.imgWrapper}>
             <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2021.png"/></Box>
           </Box>
         </Box>
 
         <Box display="flex" justifyContent="space-between" className={classes.reasons}>
-          <Box className={classes.listWrapper}>
-            <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img data-aos="fade-up" className={classes.diagram} src="images/2022.png"/></Box>
+          <Box className={classes.imgWrapper}>
+            <Box data-aos="fade-up" display="flex" alignItems="flex-start" ><img data-aos="fade-up" className={classes.diagram} src="images/2022.png"/></Box>
           </Box>
           <Box className={classes.listWrapper}>
             <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>2022</FastTypography>

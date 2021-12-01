@@ -8,6 +8,9 @@ const useStyles = makeStyles(theme => ({
     color: '#fff',
     fontWeight: prop => prop.weight,
     fontSize: 24,
+    [theme.breakpoints.down('md')]: {
+      fontSize: 18,
+    },
     [theme.breakpoints.down('xs')]: {
       fontSize: 12,
     },
