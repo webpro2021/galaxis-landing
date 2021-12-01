@@ -377,16 +377,16 @@ export default function FourthScreen() {
             <span style={{color: '#BC75FC', fontSize: 50, textDecoration: 'none' }}>Ecosystem</span><span style={{fontSize: 50, textDecoration: 'none' }}> Features</span>
           </FastTypography>
 
-          <Box display="flex" justifyContent="space-between" className={classes.reasons}>
-            <Box className={classes.listWrapper}>
+          {/* <Box display="flex" justifyContent="space-between" className={classes.reasons}> */}
+            {/* <Box className={classes.listWrapper}> */}
               <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>MVP</FastTypography>
                 <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>Due to time and funding constraints, we’re able to launch the following MVP in the near future.</FastTypography></Box>
                 <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>A linktree-like platform with content creator statistics and expedited contracts agreement: </FastTypography></Box>
                 <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>1. For creators/influencers<br />Instead of focusing your earning capabilities on amounts of views, creators/Influencers will have a much easier time making more money faster than ever before from their content by using expedited contracts through our platform. The more contracts you get, the bigger the prices you get through our statistics, reviews and bidding process for brands. Striking deals this way will allow you to allocate more time for your craft and life.</FastTypography></Box>
                 <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>2. For brands<br />Instead of sending emails back and forth to a multitude of people through marketing agencies or copy-pasted influencer platforms, Galaxis allows you to connect with any influencer in seconds. Contacts are fast and easy to build. Reviews help you have confidence to work with an influencer. Escrow accounts improve a secure transaction and an interactive negotiations table helps communication transparency.</FastTypography></Box>
-            </Box>
-            <Box className={classes.listWrapper}>
-              <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>FVP</FastTypography>
+            {/* </Box> */}
+            {/* <Box className={classes.listWrapper}> */}
+              <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}><br />FVP</FastTypography>
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><FastTypography noMargin>
                 The ecosystem seeks to be a new standard on web 3.0 as the main  and most powerful decentralized social media platform.<br />
                 Our platform infrastructure is built to be the next gen platform to sustain endless online activity. From social interactions, 
@@ -432,9 +432,10 @@ export default function FourthScreen() {
                 teletransport to the sponsors shop and buy on the go, even while consuming content, thus crediting the original promoter who redirected the user 
                 to produce a sale. This ability to give more value to influencers will transform radically how influencers make their money. 
                 </FastTypography>
-              </Box>
-            </Box>
+              {/* </Box> */}
+            {/* </Box> */}
           </Box>
+          <br />
           
       </Container>
     </Box>

@@ -135,8 +135,10 @@ const useStyles = makeStyles(theme => ({
     },
   },
   imgWrapper: {
+    width: '50%',
     display: 'flex',
-    alignItems: 'center'
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 }));
 
