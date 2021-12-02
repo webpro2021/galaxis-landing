@@ -134,6 +134,65 @@ const useStyles = makeStyles(theme => ({
       display: 'none'
     },
   },
+  typography: {
+    textAlign: 'center',
+    '& span': {
+      background: '#9214FF',
+      opacity: 0.9,
+      borderRadius: 5,
+      padding: '20px 40px',
+      top: 10,
+      position: 'relative',
+      fontSize: 18,
+      color: 'white',
+      [theme.breakpoints.down('xs')]: {
+        padding: '3px 10px 3px',
+      },
+    }
+  },
+  info: {
+    color: 'white',
+    display: "flex",
+    margin: 'auto',
+    justifyContent: "flex-start",
+    fontSize: 24,
+    padding: '20px 40px',
+    textAlign: 'start',
+    [theme.breakpoints.down('xs')]: {
+      width: '100%',
+      padding: 0,
+      fontSize: 18,
+      flexDirection: 'column',
+      justifyContent: "center",
+      alignItems: "center",
+      textAlign: 'center'
+    },
+  },
+  infoTitle: {
+    color: '#FEAFC4',
+    fontWeight: 'bold',
+    flex: 1
+  },
+  infoTitle2: {
+    color: '#9D4AA3',
+    [theme.breakpoints.down('sm')]: {
+      marginTop: 16,
+      maxWidth: typeof window !== 'undefined' ? window?.outerWidth : 330,
+    },
+  },
+  infoText: {
+    padding: '0 10px',
+  },
+  diagram1: {
+    margin: '40px auto 0',
+    [theme.breakpoints.down('md')]: {
+      width: '90%',
+    },
+    [theme.breakpoints.down('xs')]: {
+      width: '90%',
+      maxWidth: typeof window !== 'undefined' ? window?.outerWidth : 330,
+    },
+  },
   imgWrapper: {
     width: '50%',
     display: 'flex',

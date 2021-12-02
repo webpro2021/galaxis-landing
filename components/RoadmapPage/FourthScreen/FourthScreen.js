@@ -296,6 +296,25 @@ export default function FourthScreen() {
   return(
     <Box className={classes.root}>
       <Container maxWidth="lg">
+      <Box display="flex" flexDirection="column">
+        <div data-aos="fade-up" style={{marginBottom: 25}}
+                        className={classes.typography}>
+            <FastTypography data-aos="fade-up" type="h1" weight="bold" style={{textAlign: 'center', marginTop: 100}}>Ecosystem</FastTypography>
+            <Box display="flex" flexDirection="column">
+                <div className={classes.info}>
+                    <div className={classes.infoText}>
+                      The purpose of this ecosystem is to have a decentralized platform where we can do all social, 
+                      commerce, advertising, and content consumption activity while having a secure system that 
+                      works for everyone. Galaxis purpose is to digitize every company and offer and endless amount 
+                      of online work through the help of content, advertising and ecommerce. This will create a revolving 
+                      cycle which we refer to as the ecosystem.
+                    </div>
+                </div>
+            </Box>
+            <br/>
+        </div>
+        <img data-aos="fade-up" className={classes.diagram1} src="images/ecosystem.png"/>
+      </Box> 
         <FastTypography data-aos="fade-up" type="h1" weight="bold" style={{textAlign: 'center', marginTop: 100}}>Galaxis roadmap</FastTypography>
 
         <Box display="flex" flexDirection="column">

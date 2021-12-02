@@ -38,6 +38,13 @@ export default function Header() {
               </Button>
               </Link>
             </li>
+            <li className={router.pathname == "/roadmap" && trigger ? "active" : ""}>
+              <Link href="/roadmap">
+              <Button component="a">Roadmap
+                {router.pathname == "/roadmap" && !trigger && <Divider className={classes.divider}/>}
+              </Button>
+              </Link>
+            </li>
             <li className={router.pathname == "/support" && trigger ? "active" : ""}>
               <Link href="/support">
               <Button component="a">Support and Q&A
@@ -45,20 +52,13 @@ export default function Header() {
               </Button>
               </Link>
             </li>
-            <li className={`hideNav ${router.pathname == "/ecosystem" && trigger ? "active" : ""}`}>
+            {/* <li className={`hideNav ${router.pathname == "/ecosystem" && trigger ? "active" : ""}`}>
               <Link href="/ecosystem">
                 <Button component="a" >Ecosystem
                   {router.pathname == "/ecosystem" && !trigger && <Divider className={classes.divider}/>}
                 </Button>
               </Link>
-            </li>
-            <li className={`hideNav ${router.pathname == "/roadmap" && trigger ? "active" : ""}`}>
-              <Link href="/roadmap">
-              <Button component="a">Roadmap
-                {router.pathname == "/roadmap" && !trigger && <Divider className={classes.divider}/>}
-              </Button>
-              </Link>
-            </li>
+            </li> */}
             {/* <li className={router.pathname == "/demo" && trigger ? "active" : ""}>
               <Link href="/demo">
               <Button component="a">DEMO
@@ -66,11 +66,11 @@ export default function Header() {
               </Button>
               </Link>
             </li> */}
-            <li>
+            {/* <li>
               <Button>
                 <AnchorLink offset='100' href='#contacts'>Contact Us</AnchorLink>
               </Button>
-            </li>
+            </li> */}
           </ul>
         </nav>
     </AppBar>
