@@ -32,7 +32,9 @@ export default function FirstScreen() {
               <div>To invest directly in company stock: </div><div style={{margin: '20px 0  '}}> info@galaxis.co</div>
             </div>
             <div className={classes.smallContent} style={{backgroundColor: 'rgb(63, 72, 204)'}}>
-              <div>To invest in our Crypto Coin, Slyx </div><a href="#" style={{margin: '20px 0', textDecoration: 'none', color: '#ffffff'}}>BUY HERE</a>
+              <div>To invest in our Crypto Coin, Slyx </div>
+              <a href="#" style={{margin: '9px 0', textDecoration: 'none', color: '#ffffff'}}>BUY HERE</a>
+              <a href="https://discord.gg/y6eURpZXFF" target="_blank" style={{textDecoration: 'none', color: '#ffffff'}}>JOIN COMMUNITY</a>
             </div>
           </div>
         </div>
