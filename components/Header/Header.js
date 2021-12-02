@@ -31,9 +31,16 @@ export default function Header() {
                   </Button>
               </Link>
             </li>
+            <li className={router.pathname == "/buy" && trigger ? "active" : ""}>
+              <Link href="/buy">
+              <Button component="a">BUY
+                {router.pathname == "/buy" && !trigger && <Divider className={classes.divider}/>}
+              </Button>
+              </Link>
+            </li>
             <li className={router.pathname == "/support" && trigger ? "active" : ""}>
               <Link href="/support">
-              <Button component="a">Show Some Love
+              <Button component="a">Support and Q&A
                 {router.pathname == "/support" && !trigger && <Divider className={classes.divider}/>}
               </Button>
               </Link>
@@ -52,13 +59,13 @@ export default function Header() {
               </Button>
               </Link>
             </li>
-            <li className={router.pathname == "/demo" && trigger ? "active" : ""}>
+            {/* <li className={router.pathname == "/demo" && trigger ? "active" : ""}>
               <Link href="/demo">
               <Button component="a">DEMO
                 {router.pathname == "/demo" && !trigger && <Divider className={classes.divider}/>}
               </Button>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Button>
                 <AnchorLink offset='100' href='#contacts'>Contact Us</AnchorLink>
