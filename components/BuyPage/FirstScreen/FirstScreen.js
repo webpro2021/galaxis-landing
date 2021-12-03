@@ -23,7 +23,7 @@ export default function FirstScreen() {
                                 <div className={classes.valueContent}><span>Value</span><span>&nbsp;</span></div>
                                 <div className={classes.valueContent}><span>Holders</span><span>&nbsp;</span></div>
                                 <div className={classes.valueContent}><span>Burned</span><span>&nbsp;</span></div>
-                                <div className={classes.valueContent}><span>Calculating</span><span>&nbsp;</span></div>
+                                <div className={classes.valueContent}><span>Circulating</span><span>&nbsp;</span></div>
                                 <div className={classes.valueContent}><span>MarketCap</span><span>&nbsp;</span></div>
                             </div>
                         </div>
