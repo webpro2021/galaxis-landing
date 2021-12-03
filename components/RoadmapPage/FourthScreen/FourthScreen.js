@@ -305,7 +305,7 @@ export default function FourthScreen() {
                     <div className={classes.infoText}>
                       The purpose of this ecosystem is to have a decentralized platform where we can do all social, 
                       commerce, advertising, and content consumption activity while having a secure system that 
-                      works for everyone. Galaxis purpose is to digitize every company and offer and endless amount 
+                      works for everyone. Galaxis purpose is to digitize every company and offer an endless amount 
                       of online work through the help of content, advertising and ecommerce. This will create a revolving 
                       cycle which we refer to as the ecosystem.
                     </div>
@@ -321,7 +321,7 @@ export default function FourthScreen() {
         <Box display="flex" justifyContent="space-between" className={classes.reasons}>
           <Box className={classes.listWrapper}>
             <FastTypography data-aos="fade-up" type="h3" weight="bold" noMargin className={classes.listSubtitle}>2019</FastTypography>
-              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Teamed up with Phil Nahajewski in Q4 2018 and registered corporation as Galaxis INC.</FastTypography></Box>
+              <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>In Q4 2018 we registered corporation as Galaxis INC.</FastTypography></Box>
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>$50k invested by co-founder</FastTypography></Box>
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired freelancer in marketing to help improving communication to investors</FastTypography></Box>
               <Box data-aos="fade-up" display="flex" alignItems="flex-start"><img src="images/check.png" className={classes.check}/><FastTypography noMargin>Hired developing company from abroad to create better wireframing demo with invision. </FastTypography></Box>

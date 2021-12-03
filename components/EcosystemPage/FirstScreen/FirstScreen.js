@@ -22,7 +22,7 @@ export default function FirstScreen() {
                     <div className={classes.infoText}>
                       The purpose of this ecosystem is to have a decentralized platform where we can do all social, 
                       commerce, advertising, and content consumption activity while having a secure system that 
-                      works for everyone. Galaxis purpose is to digitize every company and offer and endless amount 
+                      works for everyone. Galaxis purpose is to digitize every company and offer an endless amount 
                       of online work through the help of content, advertising and ecommerce. This will create a revolving 
                       cycle which we refer to as the ecosystem.
                     </div>

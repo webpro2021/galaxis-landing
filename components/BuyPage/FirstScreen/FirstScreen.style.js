@@ -112,9 +112,10 @@ const useStyles = makeStyles(theme => ({
     margin: 'auto',
     width: '50%',
     justifyContent: "flex-start",
-    fontSize: 24,
+    fontSize: 22,
     padding: '20px 0',
     textAlign: 'start',
+    fontWeight: 600,
     [theme.breakpoints.down('md')]: {
       width: '100%',
       padding: '10px 30px',
@@ -130,6 +131,16 @@ const useStyles = makeStyles(theme => ({
       justifyContent: "center",
       alignItems: "center",
     },
+  },
+  secondInfo: {
+    fontSize: 20,
+    color: 'white',
+    display: "flex",
+    margin: 'auto',
+    width: '100%',
+    justifyContent: "flex-start",
+    textAlign: 'start',
+    background: "transparent !important"
   },
   infoTitle: {
     color: '#FEAFC4',
@@ -147,7 +158,8 @@ const useStyles = makeStyles(theme => ({
     flex: 8
   },
   diagram: {
-    margin: '40px auto 0',
+    margin: '0 auto 0',
+    marginBottom: '20px',
     maxWidth: 768,
     [theme.breakpoints.down('xs')]: {
       maxWidth: typeof window !== 'undefined' ? window?.outerWidth : 330,
@@ -290,6 +302,20 @@ const useStyles = makeStyles(theme => ({
       height: '100%',
     }, 
   },
+  smallContent1: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    padding: '10px',
+    marginBottom: '10px',
+    
+    [theme.breakpoints.down('md')]: {
+      flex: 'unset',
+      width: '49%',
+      marginBottom: '0px'
+    }, 
+  },
   valueContent: {
     width: '20%',
     margin: '10px 0',
@@ -311,6 +337,47 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down('sm')]: {
       marginBottom: '10px', 
     }, 
+  },
+  roundBorder: {
+    borderRadius: '6px'
+  },
+  leftMainContent: {
+    background: 'linear-gradient(203deg, rgba(63,94,251,1) 0%, rgba(123,26,182,0.7833508403361344) 100%)',
+  },
+  buyButton: {
+    borderRadius: '6px',
+    background: '#c54e4e',
+    display: "flex",
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: "white",
+    textDecoration: 'none',
+    height: 40,
+    boxShadow: '-4px 5px 3px 0px rgb(0 0 0 / 20%)',
+  },
+  joyButton: {
+    borderRadius: '6px',
+    background: 'rgba(123,26,182,0.7833508403361344)',
+    display: "flex",
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: "white",
+    textDecoration: 'none',
+    height: 34,
+    marginTop: 8,
+    boxShadow: '0px 8px 15px rgba(0, 0, 0, 0.3)',
+  },
+  investText: {
+    fontSize: 18
+  },
+  slyx: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'left'
   }
 }));
 
